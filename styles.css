@@ -14,7 +14,7 @@
 
 :root {
   --bg-color: #080808;
-  --second-bg-color: #f8f3d9;
+  --second-bg-color: #1b1a1a;
   --text-color: #fff;
   --main-color: #71c9ce;
 }
@@ -221,7 +221,7 @@ section {
 
 .text-animation span::before {
   content: "";
-  color: var(--second-bg-color);
+  color: var(--main-color);
   animation: words 20s infinite;
 }
 
@@ -298,3 +298,63 @@ section {
   }
 }
 /* HOME END */
+
+/* EDUCATION START*/
+
+.heading {
+  font-size: 8rem;
+  text-align: center;
+  margin: 5rem 0;
+}
+
+.education {
+  background-color: var(--second-bg-color);
+  padding: 100px 15px;
+}
+
+.timeline-items {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.timeline-items::before {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 100%;
+  background-color: var(--main-color);
+  left: calc(50% - 1px);
+}
+
+.timeline-item {
+  margin-bottom: 40px;
+  width: 100%;
+  position: relative;
+}
+
+.timeline-item:last-child {
+  margin-bottom: 0;
+}
+
+.timeline-item:nth-child(odd) {
+  padding-right: calc(50% + 30px);
+}
+
+.timeline-item:nth-child(even) {
+  padding-left: calc(50% + 30px);
+}
+
+.timeline-dot {
+  height: 21px;
+  width: 21px;
+  background-color: var(--main-color);
+  box-shadow: 0 0 25px var(--main-color), 0 0 50px var(--main-color);
+  position: absolute;
+  left: calc(50% - 8px);
+  border-radius: 50px;
+  top: 10px;
+}
+/* EDUCATION END*/
