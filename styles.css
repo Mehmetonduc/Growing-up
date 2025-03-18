@@ -81,7 +81,7 @@ section {
 .navbar a:hover,
 .navbar a:active {
   color: var(--main-color);
-  border-bottom: 3px solid var(var(--main-color));
+  border-bottom: 3px solid var(--main-color);
 }
 
 #menu-icon {
@@ -403,9 +403,9 @@ section {
   border-radius: 4rem;
 }
 
-::-webkit-scollbar-track {
+::-webkit-scrollbar-track {
   background-color: var(--bg-color);
-  width: 50px;
+  width: 15px;
 }
 
 /* EDUCATION END*/
@@ -416,7 +416,7 @@ section {
   color: black;
 }
 
-.service h2 {
+.services h2 {
   color: #fff;
   margin-bottom: 5rem;
 }
@@ -563,10 +563,11 @@ section {
   text-align: center;
 }
 
-.contact form. input box {
+.contact form .input-box {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  gap: 1.5rem;
 }
 
 .contact form .input-box input,
