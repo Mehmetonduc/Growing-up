@@ -12,11 +12,31 @@
   font-family: "Poppins", sans-serif;
 }
 
+/*ROOT DENEMELERİ 
+:root 
+    --main-color: #00B4D8;      
+    --second-bg-color: #E3F2FD; 
+    --bg-color: #F8FDFF;        
+    --text-color: #1A237E;      
+
+
+    --main-color: #6C5CE7;      
+    --second-bg-color: #F8F9FA; 
+    --bg-color: #FFFFFF;        
+    --text-color: #2D3436;    
+    
+    --bg-color: #080808;
+    --second-bg-color: #1b1a1a;
+    --text-color: #fff;
+    --main-color: #71c9ce;
+
+*/
+
 :root {
-  --bg-color: #080808;
-  --second-bg-color: #1b1a1a;
-  --text-color: #fff;
-  --main-color: #71c9ce;
+  --main-color: #6c5ce7;
+  --second-bg-color: #f8f9fa;
+  --bg-color: #ffffff;
+  --text-color: #2d3436;
 }
 
 html {
@@ -361,7 +381,7 @@ section {
 .timeline-date {
   font-size: 20px;
   font-weight: 800;
-  color: #fff;
+  color: #690505;
   margin: 6px 0 15px;
 }
 
@@ -382,13 +402,13 @@ section {
 
 .timeline-content h3 {
   font-size: 20px;
-  color: #fff;
+  color: #690505;
   margin: 0 0 10px;
   font-weight: 500;
 }
 
 .timeline-content p {
-  color: #fff;
+  color: #690505;
   font-size: 16px;
   font-weight: 300;
   line-height: 22px;
@@ -417,7 +437,7 @@ section {
 }
 
 .services h2 {
-  color: #fff;
+  color: #690505;
   margin-bottom: 5rem;
 }
 
