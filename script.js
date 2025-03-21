@@ -7,7 +7,6 @@ document.addEventListener("DOMContentLoaded", function () {
     navbar.classList.toggle("active");
   };
 
-  // Scroll sırasında menüyü kapat
   window.onscroll = () => {
     menuIcon.classList.remove("bx-x");
     navbar.classList.remove("active");
